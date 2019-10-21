@@ -1,0 +1,6 @@
+[submodule "jh.tt"]
+	path = jh.tt
+	url = https://github.com/j-p-higgins/jh.tt.git
+[submodule "terminal_tedium"]
+	path = terminal_tedium
+	url = https://github.com/mxmxmx/terminal_tedium.git

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 756.0, 933.0 ],
+		"rect" : [ 34.0, 79.0, 1253.0, 933.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,12 +39,50 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 116.0, 763.0, 48.0, 136.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "live.gain~[1]",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4,
+							"parameter_mmin" : -70.0,
+							"parameter_longname" : "live.gain~[1]"
+						}
+
+					}
+,
+					"varname" : "live.gain~[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 109.0, 704.5, 45.0, 22.0 ],
+					"text" : "adc~ 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-113",
 					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 186.0, 18.5, 150.0, 114.0 ],
+					"patching_rect" : [ 186.0, 18.5, 153.0, 114.0 ],
 					"text" : "the plan is to make a live sampling granular module. for eurorack. OR at the very least, interface this patch with your modular using a soundcard (or maybe an es3 & es1 combo. "
 				}
 
@@ -52,11 +90,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-107",
-					"linecount" : 17,
+					"linecount" : 16,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 70.0, 150.0, 234.0 ],
+					"patching_rect" : [ 24.0, 70.0, 154.0, 221.0 ],
 					"text" : "TODO: convert each parameter (density, where, speed, ahead) to signal-driven like what has already been done in the [p freq] subpatcher. \n\nnext, redo this code within the gen subpatcher so that each parameter can take signal or param inputs. \n\neventually this granular patch could run on a raspberry pi for a eurorack module"
 				}
 
@@ -380,20 +418,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 267.0, 752.5, 40.0, 21.0 ],
 					"text" : "value"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-86",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 250.0, 713.5, 58.0, 23.0 ],
-					"text" : "cycle~ 1"
 				}
 
 			}
@@ -894,7 +918,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 805.0, 306.0, 89.0, 22.0 ],
-					"text" : "0 0"
+					"text" : "19 870"
 				}
 
 			}
@@ -1249,7 +1273,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 634.0, 306.0, 89.0, 22.0 ],
-					"text" : "8.5 9.75"
+					"text" : "4. 4."
 				}
 
 			}
@@ -1595,7 +1619,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 452.0, 306.0, 100.0, 35.0 ],
-					"text" : "0.011811 0.011811"
+					"text" : "0.122047 0.122047"
 				}
 
 			}
@@ -1665,7 +1689,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 138.0, 232.0, 50.0, 22.0 ],
-									"text" : "5.61"
+									"text" : "12.19"
 								}
 
 							}
@@ -1677,7 +1701,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 243.0, 235.0, 50.0, 22.0 ],
-									"text" : "7.55"
+									"text" : "17.41"
 								}
 
 							}
@@ -1948,7 +1972,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 292.0, 306.0, 89.0, 22.0 ],
-					"text" : "7.55 13.16"
+					"text" : "17.41 29.6"
 				}
 
 			}
@@ -1984,7 +2008,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1082.0, 198.0, 640.0, 480.0 ],
+						"rect" : [ 1006.0, 198.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2011,6 +2035,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-29",
@@ -2497,13 +2522,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-86", 0 ],
-					"source" : [ "obj-114", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-116", 0 ],
 					"source" : [ "obj-115", 0 ]
 				}
@@ -2520,6 +2538,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-115", 0 ],
 					"source" : [ "obj-117", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"order" : 1,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"order" : 0,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -2766,13 +2800,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-95", 0 ],
-					"source" : [ "obj-86", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
 					"order" : 0,
 					"source" : [ "obj-87", 0 ]
@@ -2810,6 +2837,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-4" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
 			"obj-89" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 

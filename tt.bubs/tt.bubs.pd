@@ -195,10 +195,10 @@ for each grain. The octave value is added to the pitch shift.;
 #X floatatom 827 355 5 0 100 0 - bub_delvol -, f 5;
 #X obj 228 545 hradio 15 1 0 3 empty empty empty 0 -8 0 10 -262144
 -1 -1 0;
-#N canvas 135 177 664 511 sf-player 1;
+#N canvas 135 177 664 511 sf-player 0;
 #N canvas 0 22 450 300 (subpatch) 0;
-#X array bub_soundfile 20175 float 2;
-#X coords 0 1 20175 -1 200 140 1;
+#X array bub_soundfile 188893 float 2;
+#X coords 0 1 188893 -1 200 140 1;
 #X restore 34 32 graph;
 #X obj 286 33 openpanel;
 #X obj 286 96 soundfiler;
@@ -320,6 +320,8 @@ of each grain can be controlled.;
 #X obj 234 859 loadbang;
 #X msg 183 861 0;
 #X obj 702 785 adc~;
+#X obj 31 797 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
 #X connect 0 0 3 0;
 #X connect 1 0 35 0;
 #X connect 2 0 4 0;
@@ -421,3 +423,4 @@ of each grain can be controlled.;
 #X connect 123 0 112 0;
 #X connect 123 0 116 0;
 #X connect 124 0 115 0;
+#X connect 125 0 108 0;

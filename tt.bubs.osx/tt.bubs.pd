@@ -28,7 +28,7 @@
 #X text 25 28 +bubbler~;
 #X floatatom 227 323 5 0 200 0 - - -, f 5;
 #X obj 230 304 hsl 128 15 0 200 0 0 empty bub_initfb empty -2 -8 0
-10 -228856 -1 -1 2500 1;
+10 -228856 -1 -1 0 1;
 #X obj 232 184 hsl 128 15 0 100 0 0 empty bub_inittimevar empty -2
 -8 0 10 -228856 -1 -1 6350 1;
 #X obj 30 304 hsl 128 15 20 20000 1 0 empty bub_initfilterFreq empty
@@ -65,7 +65,7 @@
 7 0 12 -4034 -1 -1;
 #X obj 686 171 pack f f;
 #X obj 28 523 hradio 15 1 0 9 empty bub_initoct empty 0 -8 0 10 -262144
--1 -1 6;
+-1 -1 4;
 #X obj 28 541 - 4;
 #N canvas 215 84 696 653 init 0;
 #X msg 399 160 20000;
@@ -95,7 +95,7 @@
 #X msg 189 291 0;
 #X obj 566 42 s bub_initoct;
 #X msg 566 19 4;
-#X obj 107 579 delay 300;
+#X obj 24 552 delay 300;
 #X msg 107 605 \; pd dsp 1 \;;
 #X obj 22 607 s initbang;
 #X text 5 637 Send bang to ADC after DSP is on;
@@ -113,6 +113,7 @@
 #X connect 17 0 18 0;
 #X connect 19 0 22 0;
 #X connect 20 0 21 0;
+#X connect 21 0 28 0;
 #X connect 21 0 27 0;
 #X connect 21 1 1 0;
 #X connect 21 2 19 0;
@@ -126,7 +127,6 @@
 #X connect 21 9 26 0;
 #X connect 24 0 23 0;
 #X connect 26 0 25 0;
-#X connect 27 0 28 0;
 #X connect 27 0 29 0;
 #X restore 763 48 pd init;
 #N canvas 79 22 1035 558 bubbler 0;
@@ -196,7 +196,7 @@ for each grain. The octave value is added to the pitch shift.;
 #X floatatom 827 355 5 0 100 0 - bub_delvol -, f 5;
 #X obj 228 545 hradio 15 1 0 3 empty empty empty 0 -8 0 10 -262144
 -1 -1 0;
-#N canvas 135 177 664 511 sf-player 1;
+#N canvas 135 177 664 511 sf-player 0;
 #N canvas 0 22 450 300 (subpatch) 0;
 #X array bub_soundfile 20175 float 2;
 #X coords 0 1 20175 -1 200 140 1;
@@ -224,8 +224,8 @@ for each grain. The octave value is added to the pitch shift.;
 #X obj 307 343 dbtorms;
 #X obj 307 320 r bub_dryvol;
 #X obj 470 130 print;
-#X obj 560 138 loadbang;
 #X msg 488 175 symbol sounds/3.wav;
+#X obj 560 138 inlet;
 #X connect 1 0 9 0;
 #X connect 1 0 23 0;
 #X connect 2 0 10 0;
@@ -248,8 +248,8 @@ for each grain. The octave value is added to the pitch shift.;
 #X connect 20 0 16 1;
 #X connect 21 0 18 0;
 #X connect 22 0 21 0;
-#X connect 24 0 25 0;
-#X connect 25 0 9 0;
+#X connect 24 0 9 0;
+#X connect 25 0 24 0;
 #X restore 565 109 pd sf-player;
 #X obj 22 55 cnv 15 500 60 empty empty empty 20 12 0 14 -228856 -66577
 0;
@@ -336,6 +336,7 @@ of each grain can be controlled.;
 #X connect 68 0 66 0;
 #X connect 69 0 68 0;
 #X connect 69 0 67 0;
+#X connect 69 0 62 0;
 #X connect 71 0 82 0;
 #X connect 72 0 84 0;
 #X connect 73 0 86 0;

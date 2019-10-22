@@ -1,0 +1,256 @@
+#N canvas 317 74 852 679 10;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array sc-array 513 float 1;
+#A 0 0 -10.4845 -30.3557 -16.5836 -13.9822 -13.8898 -18.3095 -27.9885
+-31.3227 -31.2999 -25.8235 -25.0857 -35.1136 -33.4895 -33.9856 -36.5063
+-34.0426 -38.8225 -42.567 -48.7415 -48.9565 -48.8164 -44.4716 -41.1021
+-50.8287 -61.9198 -60.8659 -60.6085 -59.4791 -57.1861 -56.1187 -58.0968
+-62.3366 -58.3279 -52.7551 -50.2351 -52.5824 -60.0302 -59.4829 -53.3771
+-54.1904 -55.3295 -51.285 -50.5389 -47.9209 -52.9056 -60.6036 -63.2218
+-62.1373 -60.1981 -52.9763 -55.216 -57.5209 -52.0461 -52.2168 -51.9471
+-46.9794 -50.6094 -46.6947 -43.0755 -50.7582 -57.0301 -51.9262 -51.1806
+-52.9668 -53.2764 -53.6507 -52.9894 -55.5478 -56.9137 -54.3486 -51.6625
+-49.1732 -43.6849 -40.0825 -39.7783 -42.8356 -39.9173 -39.4 -42.3605
+-42.8364 -42.738 -36.8611 -35.9845 -34.2391 -41.0593 -45.184 -46.5747
+-49.8251 -49.157 -46.8209 -42.4517 -40.3916 -42.0135 -50.622 -50.307
+-39.4099 -39.1856 -44.0848 -40.4788 -40.2694 -41.8639 -40.1172 -35.4157
+-33.4331 -42.0235 -47.1596 -48.8596 -49.8913 -53.0443 -57.7823 -57.6722
+-54.3265 -48.999 -36.5091 -43.2054 -64.1192 -58.5051 -55.3335 -52.2969
+-57.7999 -53.0151 -55.1313 -54.8094 -53.5676 -50.9943 -50.2482 -49.3491
+-47.6271 -45.7243 -47.2797 -51.9301 -52.1964 -51.809 -51.111 -51.2322
+-55.1848 -61.4141 -56.7325 -53.104 -47.7075 -44.5417 -50.9314 -60.4819
+-59.0414 -51.5327 -51.8295 -52.4414 -49.2955 -51.3033 -52.5035 -54.7198
+-57.413 -54.6495 -50.7993 -52.2695 -50.3208 -53.5931 -50.9281 -54.3915
+-60.2903 -56.2833 -48.6776 -45.9815 -46.8349 -51.2361 -50.163 -47.8228
+-57.0459 -52.0351 -48.3974 -55.97 -52.8769 -52.8684 -52.4584 -44.0918
+-43.568 -43.0575 -44.5625 -55.4426 -51.2181 -56.582 -57.2989 -53.5983
+-54.076 -55.0868 -48.9838 -56.7347 -61.4837 -65.6929 -63.5294 -57.3451
+-56.6028 -54.3272 -58.8609 -62.393 -59.3031 -53.7725 -54.542 -61.4933
+-57.7316 -58.373 -52.4035 -56.9015 -62.4252 -56.1994 -58.6547 -57.5723
+-56.5069 -57.2768 -61.8024 -63.4876 -65.4833 -68.513 -72.5855 -74.7157
+-67.3039 -56.1271 -55.0768 -65.7111 -74.6971 -67.4857 -63.819 -58.5144
+-59.5387 -65.5119 -68.2954 -71.5838 -75.597 -76.5486 -76.6992 -74.6037
+-68.548 -65.2261 -60.2669 -64.0482 -71.2623 -71.1732 -70.1139 -70.3287
+-69.7122 -65.6057 -62.2838 -67.029 -65.6284 -68.2544 -73.0868 -74.7267
+-74.8716 -71.4537 -74.0269 -81.6073 -81.7642 -78.2826 -78.6431 -85.7706
+-84.4593 -78.4774 -80.3985 -81.3602 -74.9351 -73.6313 -71.599 -77.982
+-82.4799 -85.2355 -87.917 -86.6151 -84.4622 -86.6778 -82.8084 -76.7606
+-76.1589 -79.6644 -78.9007 -82.6143 -87.3463 -81.538 -80.8433 -77.2253
+-77.1887 -81.2005 -88.2538 -92.2719 -85.3963 -86.3457 -96 -96 -96 -93.9249
+-86.9905 -83.9225 -84.0384 -94.0532 -94.9038 -91.4892 -94.9874 -90.0064
+-83.8161 -85.8102 -95.7023 -96 -96 -88.8046 -89.1291 -89.1045 -96 -96
+-96 -96 -96 -96 -96 -88.321 -91.1079 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 1;
+#X coords 0 0 512 -120 200 140 1;
+#X restore 65 -302 graph;
+#X msg 178 128 tilt \$1;
+#X obj 402 26 tgl 15 0 empty sc-learn-set empty 17 7 0 10 -262144 -1
+-1 0 1;
+#X obj 181 -98 hsl 128 15 0.2 5 0 0 empty sc-ratio-set empty -2 -8
+0 10 -228856 -1 -1 10608 1;
+#X obj 28 -98 hsl 128 15 -96 0 0 0 empty sc-thresh-set empty -2 -8
+0 10 -228856 -1 -1 10108 1;
+#X obj 181 108 hsl 128 15 -3 3 0 1 empty sc-tilt-set empty -2 -8 0
+10 -228856 -1 -1 6350 1;
+#X msg 178 -78 ratio \$1;
+#X msg 25 -77 threshold \$1;
+#X msg 402 46 learnpeak \$1;
+#X obj 178 149 s sc;
+#X obj 178 -57 s sc;
+#X obj 402 67 s sc;
+#X obj 402 -74 s sc;
+#X obj 28 5 hsl 128 15 0 5 0 1 empty sc-attack-set empty -2 -8 0 10
+-228856 -1 -1 254 1;
+#X obj 25 46 s sc;
+#X msg 25 25 attack \$1;
+#X obj 25 -56 s sc;
+#X obj 181 5 hsl 128 15 0 5 0 1 empty sc-release-set empty -2 -8 0
+10 -228856 -1 -1 1270 1;
+#X obj 178 46 s sc;
+#X msg 178 25 release \$1;
+#X obj 404 108 tgl 15 0 empty sc-invert-set empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 404 149 s sc;
+#X msg 404 128 invert \$1;
+#X obj 28 108 hsl 128 15 -24 24 0 0 empty sc-gain-set empty -2 -8 0
+10 -228856 -1 -1 12700 1;
+#X msg 25 128 gain \$1;
+#X obj 25 149 s sc;
+#X obj 598 16 dac~;
+#X obj 616 -59 dbtorms~;
+#X obj 598 -34 *~;
+#X obj 598 -235 bng 15 250 50 0 sc_openfile empty open-soundfile 17
+7 0 12 -4034 -1 -1;
+#X obj 619 -80 hsl 128 15 0 100 0 0 empty sc-volume-set volume -2 -8
+0 12 -228856 -1 -1 10160 1;
+#N canvas 656 107 624 512 init 0;
+#X obj 37 18 loadbang;
+#X msg 146 446 \; pd dsp 1 \;;
+#X msg 164 391 80;
+#X msg 244 337 0;
+#X obj 164 412 s sc-volume-set;
+#X obj 244 358 s sc-tilt-set;
+#X obj 203 384 s sc-ratio-set;
+#X obj 283 330 s sc-attack-set;
+#X msg 370 187 0;
+#X msg 409 159 0;
+#X obj 329 234 s sc-thresh-set;
+#X obj 409 180 s sc-learn-set;
+#X msg 329 213 -40;
+#X msg 459 129 0;
+#X obj 459 150 s sc-invert-set;
+#X obj 37 39 t b b b b b b b b b b;
+#X msg 283 309 0.1;
+#X msg 203 363 3;
+#X obj 370 208 s sc-gain-set;
+#X obj 290 262 s sc-release-set;
+#X msg 290 241 0.5;
+#X msg 324 33 \; sc-array ylabel -50 -120 -60 0 \;;
+#X connect 0 0 15 0;
+#X connect 2 0 4 0;
+#X connect 3 0 5 0;
+#X connect 8 0 18 0;
+#X connect 9 0 11 0;
+#X connect 12 0 10 0;
+#X connect 13 0 14 0;
+#X connect 15 0 1 0;
+#X connect 15 1 2 0;
+#X connect 15 2 17 0;
+#X connect 15 3 3 0;
+#X connect 15 4 16 0;
+#X connect 15 5 20 0;
+#X connect 15 6 12 0;
+#X connect 15 7 8 0;
+#X connect 15 9 21 0;
+#X connect 16 0 7 0;
+#X connect 17 0 6 0;
+#X connect 20 0 19 0;
+#X restore 731 -326 pd init;
+#X obj 25 -437 cnv 15 500 100 empty empty empty 20 12 0 14 -228856
+-66577 0;
+#N canvas 320 74 960 404 spectralcompand-details 0;
+#X text 32 29 threshold - This is the point at which +spectralcompand~
+turns on and off. When compressing \, the effect is active when the
+sound is higher than the threshold. When expanding \, the effect is
+active when the sound is lower than the threshold (this is known as
+downward expansion). The threshold can be varied from -120 dB to 0
+dB. If the shaping line in the spectral display is used to give the
+threshold a complex shape \, the threshold knob represents the average
+threshold of the shaping line.;
+#X text 32 159 ratio - The ratio controls the amount of compression
+or expansion. The range from 5:1 to 1:1 is the compression range \,
+and from 1:1 to 1:5 is the expansion range. Compression reduces the
+dynamic range of the sound \, resulting in a smaller difference between
+the loudest and softest harmonic. Compression affects only those harmonics
+which are above the threshold. Conversely \, expansion increases the
+dynamic range of the sound \, resulting in a larger difference between
+the loudest and softest harmonics. Expansion only affects those harmonics
+which are below the threshold.;
+#X text 31 311 attack and release - These controls specify how quickly
+the gate will turn on (attack) or turn off (release) after passing
+the threshold. They both can be varied from 0 to 1 second. A longer
+value will smooth the transition \, making the transition less noticeable.
+A shorter value will make the transition more abrupt.;
+#X text 492 79 tilt - This control gives you an easy way to change
+the threshold shape \, either by raising the high frequencies and lowering
+the low \, or vice-versa. Tilt can go from a 6 dB per octave boost
+of the high frequencies to a -6 dB per octave cut of the high frequencies.
+;
+#X text 492 159 makeupgain - This is a simple level adjustment that
+affects all frequencies. The range is -60 dB to 60 dB.;
+#X text 492 209 learnpeak - This button will set the threshold shape
+\, using the largest (peak) sound between the current input sound and
+the previous threshold shape for each frequency.;
+#X text 492 259 invert - This control allows you to invert the compression
+or expansion process and hear the difference between the processed
+sound and the input. This is very useful when using spectral expansion
+for broadband noise reduction \, as you will be able to hear the sound
+that is being removed.;
+#X restore 598 -347 pd spectralcompand-details;
+#X obj 598 -137 +spectralcompand~ sc-array;
+#N canvas 623 78 657 507 sc_soundfile 0;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array sc_soundfile 242976 float 2;
+#X coords 0 1 242976 -1 200 140 1;
+#X restore 34 31 graph;
+#X obj 281 33 openpanel;
+#X obj 281 96 soundfiler;
+#X obj 281 171 phasor~ 0.5;
+#X obj 281 198 *~;
+#X obj 451 413 /;
+#X obj 451 348 t b f;
+#X obj 451 371 samplerate~;
+#X obj 281 288 outlet~;
+#X obj 451 440 s sc_phasorfreq;
+#X obj 451 320 r sc_filelength;
+#X obj 281 231 tabread~ sc_soundfile;
+#X obj 322 198 r sc_filelength;
+#X obj 281 146 r sc_phasorfreq;
+#X obj 281 121 s sc_filelength;
+#X msg 281 64 read -resize -maxsize 2e+06 \$1 sc_soundfile;
+#X obj 281 11 r sc_openfile;
+#X connect 1 0 15 0;
+#X connect 2 0 14 0;
+#X connect 3 0 4 0;
+#X connect 4 0 11 0;
+#X connect 5 0 9 0;
+#X connect 6 0 7 0;
+#X connect 6 1 5 1;
+#X connect 7 0 5 0;
+#X connect 10 0 6 0;
+#X connect 11 0 8 0;
+#X connect 12 0 4 1;
+#X connect 13 0 3 0;
+#X connect 15 0 2 0;
+#X connect 16 0 1 0;
+#X restore 598 -211 pd sc_soundfile;
+#X obj 609 -164 r sc;
+#X text 28 -464 +spectralcompand~;
+#X text 30 -432 +spectralcompand~ is a spectral version of the standard
+expander/compressor. Like +spectralgate~ \, it divides the frequency
+spectrum into 513 bands and processes each band individually. Each
+band is processed with a combination expander and compression unit
+(commonly known as a compander) which can go smoothly from a compression
+ratio of 5:1 to an expansion ratio of 1:5.;
+#X msg 402 -95 set sc-array;
+#X obj 401 -44 tgl 15 0 empty sc-learn-set empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 401 -3 s sc;
+#X msg 401 -24 learnavg \$1;
+#X connect 1 0 9 0;
+#X connect 2 0 8 0;
+#X connect 3 0 6 0;
+#X connect 4 0 7 0;
+#X connect 5 0 1 0;
+#X connect 6 0 10 0;
+#X connect 7 0 16 0;
+#X connect 8 0 11 0;
+#X connect 13 0 15 0;
+#X connect 15 0 14 0;
+#X connect 17 0 19 0;
+#X connect 19 0 18 0;
+#X connect 20 0 22 0;
+#X connect 22 0 21 0;
+#X connect 23 0 24 0;
+#X connect 24 0 25 0;
+#X connect 27 0 28 1;
+#X connect 28 0 26 1;
+#X connect 28 0 26 0;
+#X connect 30 0 27 0;
+#X connect 34 0 28 0;
+#X connect 35 0 34 0;
+#X connect 36 0 34 0;
+#X connect 39 0 12 0;
+#X connect 40 0 42 0;
+#X connect 42 0 41 0;

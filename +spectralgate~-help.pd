@@ -1,0 +1,246 @@
+#N canvas 92 97 816 635 10;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array sg-array 513 float 1;
+#A 0 -13.311 -26.4118 -30.3672 -8.47892 0 -2.34336 -0.668136 -11.5154
+-11.4987 -5.8376 -0.138862 -9.16555 -15.6193 -23.179 -23.9677 -23.6509
+-26.4615 -35.0429 -38.4641 -32.2833 -29.9341 -32.1072 -33.1743 -37.4683
+-35.1587 -32.8756 -42.1613 -43.4977 -39.8139 -40.9776 -44.4946 -36.1395
+-35.0669 -35.1612 -29.8167 -30.2353 -40.5364 -34.9702 -40.9479 -45.2145
+-39.2829 -38.4273 -39.0339 -42.3709 -43.5122 -39.4543 -36.6391 -39.463
+-42.6616 -42.1988 -39.0315 -37.8371 -42.1329 -39.6422 -36.7149 -36.3504
+-40.1941 -41.1489 -38.6203 -38.4206 -38.019 -35.2401 -31.4256 -29.4878
+-35.723 -34.6992 -34.8063 -34.3128 -29.7057 -34.0788 -32.657 -26.8534
+-36.1913 -32.2001 -34.0145 -28.099 -24.9629 -30.5589 -35.1324 -32.7124
+-28.9753 -30.4041 -30.9115 -28.7202 -24.9254 -31.28 -33.0944 -31.2657
+-26.3237 -38.4663 -37.6261 -40.4762 -36.1683 -30.2168 -37.0863 -32.991
+-29.9501 -31.1798 -36.8393 -39.6754 -41.6553 -41.5634 -40.5409 -32.748
+-33.593 -35.0371 -36.3705 -36.1898 -38.3475 -41.4146 -43.3248 -40.069
+-38.9753 -42.5571 -43.76 -42.064 -35.6025 -42.1046 -42.4835 -39.4076
+-42.7006 -40.8708 -42.38 -35.2253 -40.0559 -41.2498 -48.906 -51.9111
+-51.1202 -52.5091 -47.5897 -45.0738 -50.1715 -40.0111 -43.0496 -46.4269
+-45.6207 -39.107 -45.0128 -42.8575 -43.4772 -48.8279 -47.5756 -46.6178
+-41.6612 -40.9334 -42.5702 -42.3128 -43.0086 -40.3827 -45.9514 -51.3237
+-52.1687 -45.9107 -53.4436 -54.2727 -49.3467 -51.3575 -53.7188 -52.2641
+-49.9698 -52.3124 -42.8889 -42.9481 -48.106 -50.8112 -53.9916 -56.3224
+-54.349 -51.0501 -47.0695 -50.0501 -46.6437 -52.2283 -53.6839 -42.3214
+-46.4305 -48.9677 -43.2209 -50.0382 -53.0508 -51.9636 -57.8877 -50.0665
+-52.3671 -62.7401 -67.6667 -59.8564 -54.8699 -59.8901 -63.1556 -63.0594
+-62.638 -59.2092 -62.0648 -58.962 -61.3277 -65.2653 -60.3871 -60.7052
+-63.8113 -64.267 -64.0355 -61.2923 -61.8979 -67.4323 -75.3081 -65.5655
+-60.4609 -56.164 -56.2855 -59.8944 -66.3733 -66.273 -66.9896 -67.1851
+-66.8253 -63.8509 -61.6264 -71.7428 -66.9394 -70.2033 -67.2505 -62.5828
+-65.6101 -67.0605 -61.9411 -61.2115 -69.936 -72.9468 -68.5142 -72.4614
+-71.9309 -67.5954 -59.5084 -60.9042 -68.2944 -71.3373 -75.461 -66.9006
+-71.1572 -74.7217 -70.3054 -70.871 -76.4755 -69.1353 -72.4037 -76.1476
+-71.9736 -76.1433 -79.6982 -86.3546 -86.0775 -85.4722 -82.437 -82.5648
+-83.3638 -87.9424 -86.6076 -82.4908 -72.7617 -72.9989 -70.2135 -82.1857
+-87.1927 -81.8932 -81.9185 -85.1771 -81.782 -80.7729 -82.2446 -87.243
+-85.8397 -88.8169 -90.162 -88.2523 -83.8569 -83.7428 -87.2691 -86.2853
+-82.3514 -83.5188 -85.0564 -86.8157 -93.1865 -90.7121 -92.8516 -96
+-89.5333 -90.4246 -88.3916 -87.0501 -85.7463 -87.9165 -93.6474 -96
+-96 -92.0696 -93.5568 -94.0457 -91.8562 -90.5699 -95.1453 -96 -96 -92.3094
+-93.6298 -90.7991 -94.0442 -96 -94.5898 -93.4576 -96 -96 -93.618 -96
+-93.2443 -96 -94.5113 -94.0547 -95.1037 -90.9999 -96 -93.872 -95.8724
+-96 -96 -96 -96 -94.2359 -93.5136 -94.9209 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -95.85 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96 -96
+-96 -96 -96 -96 -96 -48;
+#X coords 0 96 512 -96 200 140 1;
+#X restore 245 44 graph;
+#X obj 598 303 dac~;
+#X obj 598 253 *~;
+#X msg 90 284 threshold \$1;
+#X floatatom 90 266 5 0 0 0 - - -, f 5;
+#X floatatom 205 266 5 0 0 0 - - -, f 5;
+#X floatatom 298 266 5 0 0 0 - - -, f 5;
+#X floatatom 400 266 5 -60 60 0 - - -, f 5;
+#X floatatom 347 387 5 0 60 0 - - -, f 5;
+#X msg 205 284 attack \$1;
+#X msg 298 284 release \$1;
+#X msg 400 284 gain \$1;
+#X floatatom 265 387 5 0 0 0 - - -, f 5;
+#X msg 265 405 tilt \$1;
+#X msg 23 258 reset;
+#X msg 175 405 learn \$1;
+#X obj 175 385 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 23 380 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 23 400 peaktrack \$1;
+#X msg 347 405 makeupgain \$1;
+#X obj 23 84 hradio 15 1 0 2 empty empty empty 0 -8 0 10 -262144 -1
+-1 1;
+#X msg 23 104 type \$1;
+#X obj 638 119 r sg;
+#X obj 598 159 +spectralgate~ sg-array;
+#X obj 598 65 bng 15 250 50 0 sg_openfile empty open-soundfile 17 7
+0 12 -4034 -1 -1;
+#N canvas 657 107 720 531 init 0;
+#X obj 37 18 loadbang;
+#X msg 146 446 \; pd dsp 1 \;;
+#X msg 164 391 80;
+#X msg 244 337 0;
+#X msg 370 187 0;
+#X msg 409 159 0;
+#X msg 329 213 -40;
+#X msg 283 309 0.1;
+#X msg 290 241 0.5;
+#X obj 164 412 s sg-volume-set;
+#X obj 370 208 s sg-gain-set;
+#X obj 329 234 s sg-thresh-set;
+#X obj 290 262 s sg-release-set;
+#X obj 283 330 s sg-attack-set;
+#X obj 244 358 s sg-tilt-set;
+#X obj 409 180 s sg-learn-set;
+#X msg 203 363 0;
+#X obj 203 384 s sc-makeupgain-set;
+#X msg 459 129 0;
+#X obj 459 150 s sg-type-set;
+#X obj 37 39 t b b b b b b b b b b b;
+#X msg 324 33 \; sg-array ylabel -40 -96 -40 0 40 96 \;;
+#X connect 0 0 20 0;
+#X connect 2 0 9 0;
+#X connect 3 0 14 0;
+#X connect 4 0 10 0;
+#X connect 5 0 15 0;
+#X connect 6 0 11 0;
+#X connect 7 0 13 0;
+#X connect 8 0 12 0;
+#X connect 16 0 17 0;
+#X connect 18 0 19 0;
+#X connect 20 0 1 0;
+#X connect 20 1 2 0;
+#X connect 20 2 16 0;
+#X connect 20 3 3 0;
+#X connect 20 4 7 0;
+#X connect 20 5 8 0;
+#X connect 20 6 6 0;
+#X connect 20 7 4 0;
+#X connect 20 9 18 0;
+#X connect 20 10 21 0;
+#X restore 710 -26 pd init;
+#X obj 25 -137 cnv 15 500 100 empty empty empty 20 12 0 14 -228856
+-66577 0;
+#X text 28 -164 +spectralgate~;
+#N canvas 353 74 961 363 spectralgate-details 0;
+#X text 32 19 threshold - This is the point at which the gate starts
+to operate. It can be varied from -96 dB to 0 dB. The level of the
+input sound at every frequency is compared against the threshold. If
+gating \, the gain is applied whenever the input sound is lower than
+the threshold. If ducking \, the gain is applied whenever the input
+sound is higher than the threshold. If the shaping line in the spectral
+display is used to give the threshold a complex shape \, the threshold
+knob represents the average threshold of the shaping line.;
+#X text 32 149 gain - This regulates the amount of gain applied when
+the +spectralgate is in gate mode and the sound is below the threshold
+\, or in duck mode and the sound is above the threshold. gain can be
+varied from -60 dB to 60 dB.;
+#X text 31 221 attack and release - These controls specify how quickly
+the gate will turn on (attack) or turn off (release) after passing
+the threshold. They both can be varied from 0 to 1 second. A longer
+value will smooth the transition from ungated to gated \, making the
+transition less noticeable. A shorter value will make the transition
+more abrupt.;
+#X text 492 19 tilt - This control gives you an easy way to change
+the threshold shape \, either by raising the high frequencies and lowering
+the low \, or vice-versa. Tilt can go from a 6 dB per octave boost
+of the high frequencies to a -6 dB per octave cut of the high frequencies.
+;
+#X text 492 99 makeupgain - This is a simple level adjustment that
+affects all frequencies \, whether gated or not. It is automatically
+adjusted as gain and threshold are adjusted to attempt to maintain
+a unity gain for the effect. The range is -60 dB to 60 dB.;
+#X text 492 179 learn - This button will take the spectral shape of
+the current input sound and set the threshold from it. This is useful
+if you are trying to gate a specific type of sound.;
+#X text 492 229 reset - This button resets the threshold shape to a
+straight line.;
+#X text 492 268 peaktrack - This causes the threshold shape to track
+the peak sound. This is useful if you want to maintain the same spectral
+density regardless of the sound level.;
+#X restore 598 -47 pd spectralgate-details;
+#N canvas 623 78 657 507 sg_soundfile 0;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array sg_soundfile 242976 float 2;
+#X coords 0 1 242976 -1 200 140 1;
+#X restore 34 31 graph;
+#X obj 281 33 openpanel;
+#X obj 281 96 soundfiler;
+#X obj 281 171 phasor~ 0.5;
+#X obj 281 198 *~;
+#X obj 451 413 /;
+#X obj 451 348 t b f;
+#X obj 451 371 samplerate~;
+#X obj 281 288 outlet~;
+#X obj 281 231 tabread~ sg_soundfile;
+#X obj 322 198 r sg_filelength;
+#X obj 451 320 r sg_filelength;
+#X obj 451 440 s sg_phasorfreq;
+#X obj 281 146 r sg_phasorfreq;
+#X obj 281 121 s sg_filelength;
+#X msg 281 64 read -resize -maxsize 2e+06 \$1 sg_soundfile;
+#X obj 281 11 r sg_openfile;
+#X connect 1 0 15 0;
+#X connect 2 0 14 0;
+#X connect 3 0 4 0;
+#X connect 4 0 9 0;
+#X connect 5 0 12 0;
+#X connect 6 0 7 0;
+#X connect 6 1 5 1;
+#X connect 7 0 5 0;
+#X connect 9 0 8 0;
+#X connect 10 0 4 1;
+#X connect 11 0 6 0;
+#X connect 13 0 3 0;
+#X connect 15 0 2 0;
+#X connect 16 0 1 0;
+#X restore 598 89 pd sg_soundfile;
+#X obj 616 222 dbtorms~;
+#X obj 619 201 hsl 128 15 0 100 0 0 empty sg-volume-set volume -2 -8
+0 12 -228856 -1 -1 10500 1;
+#X msg 43 132 set sg-array;
+#X text 30 -132 +spectralgate~ is a spectral version of the standard
+noise gate/ducker dynamics processor. It divides the frequency range
+into 513 bands \, and applies a separate noise gate on each band. This
+allows you to gate or duck some bands without affecting others \, thus
+affecting only specific frequencies. In addition \, you can draw a
+threshold shape \, setting a separate threshold for each frequency.
+;
+#X obj 23 421 s sg;
+#X obj 23 300 s sg;
+#X obj 23 185 s sg;
+#X connect 2 0 1 1;
+#X connect 2 0 1 0;
+#X connect 3 0 35 0;
+#X connect 4 0 3 0;
+#X connect 5 0 9 0;
+#X connect 6 0 10 0;
+#X connect 7 0 11 0;
+#X connect 8 0 19 0;
+#X connect 9 0 35 0;
+#X connect 10 0 35 0;
+#X connect 11 0 35 0;
+#X connect 12 0 13 0;
+#X connect 13 0 34 0;
+#X connect 14 0 35 0;
+#X connect 15 0 34 0;
+#X connect 16 0 15 0;
+#X connect 17 0 18 0;
+#X connect 18 0 34 0;
+#X connect 19 0 34 0;
+#X connect 20 0 21 0;
+#X connect 21 0 36 0;
+#X connect 22 0 23 0;
+#X connect 23 0 2 0;
+#X connect 29 0 23 0;
+#X connect 30 0 2 1;
+#X connect 31 0 30 0;
+#X connect 32 0 36 0;

@@ -1,21 +1,21 @@
 #N canvas 292 114 919 650 12;
-#X floatatom 29 203 10 1 10000 0 - - -;
-#X floatatom 27 322 10 20 20000 0 - - -;
-#X floatatom 418 321 5 0 100 0 - - -;
+#X floatatom 29 203 10 1 10000 0 - - -, f 10;
+#X floatatom 27 322 10 20 20000 0 - - -, f 10;
+#X floatatom 418 321 5 0 100 0 - - -, f 5;
 #X msg 29 221 time \$1;
 #X msg 418 342 resonance \$1;
-#X floatatom 229 203 5 0 100 0 - - -;
+#X floatatom 229 203 5 0 100 0 - - -, f 5;
 #X msg 785 138 just;
 #X msg 837 138 12tet;
 #X obj 27 360 s bub;
 #X obj 29 241 s bub;
 #X obj 785 171 s bub;
-#X floatatom 26 439 5 0 200 0 - - -;
-#X floatatom 417 438 5 0 100 0 - - -;
+#X floatatom 26 439 5 0 200 0 - - -, f 5;
+#X floatatom 417 438 5 0 100 0 - - -, f 5;
 #X obj 26 477 s bub;
-#X floatatom 226 439 5 0 50 0 - - -;
+#X floatatom 226 439 5 0 50 0 - - -, f 5;
 #X msg 26 457 density \$1;
-#X floatatom 426 544 5 0 100 0 - - -;
+#X floatatom 426 544 5 0 100 0 - - -, f 5;
 #X obj 28 583 s bub;
 #X msg 28 563 octave \$1;
 #X msg 229 223 timeVariation \$1;
@@ -24,11 +24,11 @@
 #X msg 426 565 grainReversal \$1;
 #X msg 228 565 octaveVariation \$1;
 #X obj 32 184 hsl 128 15 1 10000 1 0 empty bub_inittime empty -2 -8
-0 10 -228856 -1 -1 9272 1;
+0 10 -228856 -1 -1 7600 1;
 #X text 25 28 +bubbler~;
-#X floatatom 227 323 5 0 200 0 - - -;
+#X floatatom 227 323 5 0 200 0 - - -, f 5;
 #X obj 230 304 hsl 128 15 0 200 0 0 empty bub_initfb empty -2 -8 0
-10 -228856 -1 -1 0 1;
+10 -228856 -1 -1 5400 1;
 #X obj 232 184 hsl 128 15 0 100 0 0 empty bub_inittimevar empty -2
 -8 0 10 -228856 -1 -1 6350 1;
 #X obj 30 304 hsl 128 15 20 20000 1 0 empty bub_initfilterFreq empty
@@ -36,13 +36,13 @@
 #X obj 421 302 hsl 128 15 1 100 0 0 empty bub_initres empty -2 -8 0
 10 -228856 -1 -1 6286 1;
 #X obj 229 420 hsl 128 15 0 50 0 0 empty bub_initgrainsize empty -2
--8 0 10 -228856 -1 -1 2540 1;
+-8 0 10 -228856 -1 -1 5200 1;
 #X obj 29 420 hsl 128 15 0 200 0 0 empty bub_initdensity empty -2 -8
-0 10 -228856 -1 -1 9180 1;
+0 10 -228856 -1 -1 7380 1;
 #X obj 420 419 hsl 128 15 0 100 0 0 empty bub_initgvar empty -2 -8
-0 10 -228856 -1 -1 0 1;
+0 10 -228856 -1 -1 10500 1;
 #X obj 429 525 hsl 128 15 0 100 0 0 empty bub_initgrev empty -2 -8
-0 10 -228856 -1 -1 0 1;
+0 10 -228856 -1 -1 1300 1;
 #X msg 27 340 filterFreq \$1;
 #X msg 227 342 feedback \$1;
 #X obj 686 138 notein;
@@ -56,7 +56,7 @@
 #X text 28 165 1 - 10000 ms (log);
 #X text 24 287 20 - 20kHz (log);
 #X obj 680 355 hsl 128 15 0 100 0 0 bub_delvol bub_initdelvol empty
--2 -8 0 10 -228856 -1 -1 11200 1;
+-2 -8 0 10 -228856 -1 -1 12700 1;
 #X obj 680 302 hsl 128 15 0 100 0 0 bub_dryvol bub_initdryvol empty
 -2 -8 0 10 -228856 -1 -1 0 1;
 #X text 676 334 Delay Volume (dB);
@@ -65,7 +65,7 @@
 7 0 12 -4034 -1 -1;
 #X obj 686 171 pack f f;
 #X obj 28 523 hradio 15 1 0 9 empty bub_initoct empty 0 -8 0 10 -262144
--1 -1 4;
+-1 -1 5;
 #X obj 28 541 - 4;
 #N canvas 215 84 696 653 init 0;
 #X msg 399 160 20000;
@@ -188,14 +188,14 @@ for each grain. The octave value is added to the pitch shift.;
 #X connect 5 0 6 0;
 #X connect 6 0 3 1;
 #X restore 565 226 pd output;
-#X floatatom 827 302 5 0 100 0 - bub_dryvol -;
-#X floatatom 827 355 5 0 100 0 - bub_delvol -;
+#X floatatom 827 302 5 0 100 0 - bub_dryvol -, f 5;
+#X floatatom 827 355 5 0 100 0 - bub_delvol -, f 5;
 #X obj 228 545 hradio 15 1 0 3 empty empty empty 0 -8 0 10 -262144
 -1 -1 0;
-#N canvas 135 177 664 511 sf-player 0;
+#N canvas 135 177 664 511 sf-player 1;
 #N canvas 0 22 450 300 (subpatch) 0;
-#X array bub_soundfile 448705 float 2;
-#X coords 0 1 448705 -1 200 140 1;
+#X array bub_soundfile 20175 float 2;
+#X coords 0 1 20175 -1 200 140 1;
 #X restore 34 32 graph;
 #X obj 286 33 openpanel;
 #X obj 286 96 soundfiler;
@@ -219,7 +219,11 @@ for each grain. The octave value is added to the pitch shift.;
 #X obj 286 420 *~;
 #X obj 307 343 dbtorms;
 #X obj 307 320 r bub_dryvol;
+#X obj 470 130 print;
+#X obj 560 138 loadbang;
+#X msg 488 175 symbol sounds/3.wav;
 #X connect 1 0 9 0;
+#X connect 1 0 23 0;
 #X connect 2 0 10 0;
 #X connect 3 0 4 0;
 #X connect 4 0 12 0;
@@ -240,6 +244,8 @@ for each grain. The octave value is added to the pitch shift.;
 #X connect 20 0 16 1;
 #X connect 21 0 18 0;
 #X connect 22 0 21 0;
+#X connect 24 0 25 0;
+#X connect 25 0 9 0;
 #X restore 565 109 pd sf-player;
 #X obj 22 55 cnv 15 500 60 empty empty empty 20 12 0 14 -228856 -66577
 0;

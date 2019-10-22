@@ -252,7 +252,7 @@ for each grain. The octave value is added to the pitch shift.;
 (grains) of audio are read and re-ordered before being sent to the
 delay output. Various parameters such as playback direction and pitch
 of each grain can be controlled.;
-#X obj 565 189 +bubbler~.pd_linux;
+#X obj 565 189 +bubbler~;
 #X connect 0 0 3 0;
 #X connect 1 0 35 0;
 #X connect 2 0 4 0;

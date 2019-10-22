@@ -24,11 +24,11 @@
 #X msg 426 565 grainReversal \$1;
 #X msg 228 565 octaveVariation \$1;
 #X obj 32 184 hsl 128 15 1 10000 1 0 empty bub_inittime empty -2 -8
-0 10 -228856 -1 -1 7600 1;
+0 10 -228856 -1 -1 9272 1;
 #X text 25 28 +bubbler~;
 #X floatatom 227 323 5 0 200 0 - - -, f 5;
 #X obj 230 304 hsl 128 15 0 200 0 0 empty bub_initfb empty -2 -8 0
-10 -228856 -1 -1 5400 1;
+10 -228856 -1 -1 0 1;
 #X obj 232 184 hsl 128 15 0 100 0 0 empty bub_inittimevar empty -2
 -8 0 10 -228856 -1 -1 6350 1;
 #X obj 30 304 hsl 128 15 20 20000 1 0 empty bub_initfilterFreq empty
@@ -36,13 +36,13 @@
 #X obj 421 302 hsl 128 15 1 100 0 0 empty bub_initres empty -2 -8 0
 10 -228856 -1 -1 6286 1;
 #X obj 229 420 hsl 128 15 0 50 0 0 empty bub_initgrainsize empty -2
--8 0 10 -228856 -1 -1 5200 1;
+-8 0 10 -228856 -1 -1 2540 1;
 #X obj 29 420 hsl 128 15 0 200 0 0 empty bub_initdensity empty -2 -8
-0 10 -228856 -1 -1 7380 1;
+0 10 -228856 -1 -1 5080 1;
 #X obj 420 419 hsl 128 15 0 100 0 0 empty bub_initgvar empty -2 -8
-0 10 -228856 -1 -1 10500 1;
+0 10 -228856 -1 -1 0 1;
 #X obj 429 525 hsl 128 15 0 100 0 0 empty bub_initgrev empty -2 -8
-0 10 -228856 -1 -1 1300 1;
+0 10 -228856 -1 -1 0 1;
 #X msg 27 340 filterFreq \$1;
 #X msg 227 342 feedback \$1;
 #X obj 686 138 notein;
@@ -65,7 +65,7 @@
 7 0 12 -4034 -1 -1;
 #X obj 686 171 pack f f;
 #X obj 28 523 hradio 15 1 0 9 empty bub_initoct empty 0 -8 0 10 -262144
--1 -1 5;
+-1 -1 4;
 #X obj 28 541 - 4;
 #N canvas 215 84 696 653 init 0;
 #X msg 399 160 20000;
@@ -170,7 +170,6 @@ for each grain. The octave value is added to the pitch shift.;
 #X text 520 362 12tet/just - this button sets the pitch shifting to
 12 tone equal temperament \, or to just intonation.;
 #X restore 675 25 pd bubbler details;
-#X obj 565 189 +bubbler~;
 #X obj 580 156 r bub;
 #N canvas 187 59 254 370 output 0;
 #X obj 89 280 dac~;
@@ -253,6 +252,7 @@ for each grain. The octave value is added to the pitch shift.;
 (grains) of audio are read and re-ordered before being sent to the
 delay output. Various parameters such as playback direction and pitch
 of each grain can be controlled.;
+#X obj 565 189 +bubbler~.pd_linux;
 #X connect 0 0 3 0;
 #X connect 1 0 35 0;
 #X connect 2 0 4 0;
@@ -286,10 +286,10 @@ of each grain can be controlled.;
 #X connect 36 0 8 0;
 #X connect 37 0 52 0;
 #X connect 37 1 52 1;
-#X connect 52 0 57 1;
+#X connect 52 0 65 1;
 #X connect 53 0 54 0;
 #X connect 54 0 18 0;
-#X connect 57 0 59 0;
-#X connect 58 0 57 0;
-#X connect 62 0 23 0;
-#X connect 63 0 57 0;
+#X connect 57 0 65 0;
+#X connect 61 0 23 0;
+#X connect 62 0 65 0;
+#X connect 65 0 58 0;

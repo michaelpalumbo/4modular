@@ -30,13 +30,14 @@ let ws;
 if (process.argv[2]){
   ws = new rws('ws://' + server + ':8080/', [], options);
 } else {
-  ws = new rws('ws://localhost:8080/', [], options);
+  // home network reserves this address for my laptop:
+  ws = new rws('ws://192.168.0.102:8080/', [], options);
 }
 
 
 ws.addEventListener('open', () => {
   console.log('open')
-  prompt()
+  // prompt()
 })
  
   ws.addEventListener('message', (data) => {
